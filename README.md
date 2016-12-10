@@ -1,5 +1,5 @@
-[![GoDoc](https://godoc.org/github.com/utamaro/packer?status.svg)](https://godoc.org/github.com/utamaro/packer)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/utamaro/packer/LICENSE)
+[![GoDoc](https://godoc.org/github.com/bitgoin/packer?status.svg)](https://godoc.org/github.com/bitgoin/packer)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/utamaro/bitgoin/LICENSE)
 
 
 # packer 
@@ -40,7 +40,7 @@ All integers are packed in little endian.
 
 ## Installation
 
-     $ go get github.com/utamaro/packer
+     $ go get github.com/bitgoin/packer
 
 
 ## Example
@@ -48,7 +48,7 @@ All integers are packed in little endian.
 
 ```go
 
-import packer
+import "github.com/bitgoin/packer"
 
 type S3 struct {
 	B byte
