@@ -1,5 +1,6 @@
+[![Build Status](https://travis-ci.org/bitgoin/packer.svg?branch=master)](https://travis-ci.org/bitgoin/packer)
 [![GoDoc](https://godoc.org/github.com/bitgoin/packer?status.svg)](https://godoc.org/github.com/bitgoin/packer)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/utamaro/bitgoin/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/bitgoin/packer/LICENSE)
 
 
 # packer 

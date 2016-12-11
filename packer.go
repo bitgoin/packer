@@ -48,6 +48,7 @@ const (
 //Pack converts struct to []byte.
 func Pack(buf io.Writer, t interface{}) error {
 	v := reflect.ValueOf(t)
+	v = reflect.Indirect(v)
 	ty := v.Type()
 	if ty.Kind() != reflect.Struct {
 		return errors.New("must be struct")
