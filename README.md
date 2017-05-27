@@ -8,7 +8,7 @@
 ## Overview
 
 This  library is for packing/unpacking structs(i.e. serialize struct to binary) in classical protocol style mostly used in C
- (e.g. bitcoiin protocol).  
+ (e.g. bitcoin protocol).
 
 ## Requirements
 
